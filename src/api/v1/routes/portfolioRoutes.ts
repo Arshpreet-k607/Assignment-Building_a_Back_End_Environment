@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { calculatePortfolioPerformance } from "../../portfolio/portfolioPerformance";
+import { calculatePortfolioPerformance } from "../../../portfolio/portfolioPerformance";
 
 const router = Router();
 
