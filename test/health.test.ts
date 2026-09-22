@@ -1,6 +1,6 @@
 import request from "supertest";
 import app from "../src/app";
-import { describe, it } from "node:test";
+import { describe, it, expect } from "@jest/globals";
 
 describe("Health check endpoint", () => {
   it("should return API health status", async () => {
