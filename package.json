@@ -1,33 +1,27 @@
 {
-  "name": "assignment-building_a_back_end_environment",
+  "name": "assignment-building-a-back-end-environment",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
+  "main": "dist/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts",
+    "test": "jest",
+    "lint": "eslint . --ext .ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Arshpreet-k607/Assignment-Building_a_Back_End_Environment.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Arshpreet-k607/Assignment-Building_a_Back_End_Environment/issues"
-  },
-  "homepage": "https://github.com/Arshpreet-k607/Assignment-Building_a_Back_End_Environment#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^4.19.0"
   },
   "devDependencies": {
-    "@types/express": "^5.0.6",
-    "@types/node": "^26.6.2",
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.0.0",
+    "@types/supertest": "^2.0.16",
+    "eslint": "^9.0.0",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4",
+    "ts-jest": "^29.1.2",
     "ts-node": "^10.9.2",
-    "typescript": "^7.0.2"
+    "typescript": "^5.5.0"
   }
 }
