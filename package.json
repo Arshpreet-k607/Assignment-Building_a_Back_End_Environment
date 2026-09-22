@@ -1,0 +1,33 @@
+{
+  "name": "assignment-building_a_back_end_environment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arshpreet-k607/Assignment-Building_a_Back_End_Environment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Arshpreet-k607/Assignment-Building_a_Back_End_Environment/issues"
+  },
+  "homepage": "https://github.com/Arshpreet-k607/Assignment-Building_a_Back_End_Environment#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
